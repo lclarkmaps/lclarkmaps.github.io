@@ -10,7 +10,7 @@ if (!mapboxgl.supported()) alert("Your browser does not support Mapbox GL");
 mapboxgl.accessToken = "pk.eyJ1IjoicHJvZmhvdXNlIiwiYSI6ImNqZXJnbmxkejE5ZHQycWx0NnF3Z2Z4djgifQ.cs5fxvvr9SxexUawshj4uw";
 map = new mapboxgl.Map({
     container: "map",
-    // style: 'mapbox://styles/mapbox/satellite-streets-v9',
+    style: 'mapbox://styles/mapbox/satellite-streets-v9',
     // style: "https://openmaptiles.github.io/dark-matter-gl-style/style-cdn.json",
     // style: "https://openmaptiles.github.io/positron-gl-style/style-cdn.json",
     // style: "https://openmaptiles.github.io/osm-bright-gl-style/style-cdn.json",            
