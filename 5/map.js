@@ -12,7 +12,7 @@ map = new mapboxgl.Map({
     container: "map",
     // style: 'mapbox://styles/mapbox/satellite-streets-v9',
     // style: "https://openmaptiles.github.io/dark-matter-gl-style/style-cdn.json",
-    // style: "https://openmaptiles.github.io/positron-gl-style/style-cdn.json",
+    style: "https://openmaptiles.github.io/positron-gl-style/style-cdn.json",
     // style: "https://openmaptiles.github.io/osm-bright-gl-style/style-cdn.json",            
     // style: "https://openmaptiles.github.io/klokantech-basic-gl-style/style-cdn.json",
     // style: "https://openmaptiles.github.io/klokantech-terrain-gl-style/style-cdn.json",            
